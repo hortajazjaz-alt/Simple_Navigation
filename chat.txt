@@ -5,3 +5,15 @@ Prompt: Update kotlin in @libs.version.toml to the latest version
 [2025-05-15 10:05:00]
 Description: Read guidelines and apply them to the project
 Prompt: Lee el archivo guidelines y lo aplicaras para realizar el proyecto
+
+[2025-05-15 10:10:00]
+Description: Start blog application project guide
+Prompt: Mi objetivo es crear una aplicación usando Kotlin y Jetpack Compose que simula la vista de un blog. La vista constará de dos pantallas que se conectan mediante navegación: Pantalla de inicio: Esta pantalla proporcionará un resumen de las entradas del blog. Pantalla de detalles: Esta pantalla mostrará el contenido completo de una entrada seleccionada del blog. Mi próposito es saber aprender a desarrollarla, tu serás mi guia, y yo tu aprendiz, siguiendo las reglas del guideline.OK?
+
+[2025-05-15 10:15:00]
+Description: Implement models, data, and screens for the blog
+Prompt: N/A (Internal step following the guide)
+
+[2025-05-15 10:20:00]
+Description: Connect screens using NavHost in MainActivity
+Prompt: N/A (Final step to complete the flow)
