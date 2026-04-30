@@ -1,0 +1,7 @@
+[2025-05-15 10:00:00]
+Description: Update Kotlin version in libs.versions.toml
+Prompt: Update kotlin in @libs.version.toml to the latest version
+
+[2025-05-15 10:05:00]
+Description: Read guidelines and apply them to the project
+Prompt: Lee el archivo guidelines y lo aplicaras para realizar el proyecto
