@@ -17,3 +17,15 @@ Prompt: N/A (Internal step following the guide)
 [2025-05-15 10:20:00]
 Description: Connect screens using NavHost in MainActivity
 Prompt: N/A (Final step to complete the flow)
+
+[2025-05-15 10:25:00]
+Description: Explain temporary IDE errors
+Prompt: Por que está generando errores?
+
+[2025-05-15 10:30:00]
+Description: Reorganize project structure to use navigation/ and screens/ folders
+Prompt: app/ └── src/main/java/.../ ├── MainActivity.kt ├── navigation/ │ └── AppNavigation.kt ← Define el NavHost y las rutas ├── screens/ │ ├── HomeScreen.kt ← Pantalla principal del blog │ └── DetailScreen.kt ← Pantalla con descripción completa └── ui/theme/ ← Tema generado por defecto. Mis requisitos es tener estas carpetas y de ser posible este orden, que debo continuar para lograr eso?
+
+[2025-05-15 10:40:00]
+Description: Update BlogPost and BlogData with more content and fix Run issue
+Prompt: configura el BlogPost con la estructura para crear el blog y no esté vacio,por ejemplo 2 Porque no me deja correr el proyecto?

@@ -5,5 +5,6 @@ data class BlogPost(
     val title: String,
     val content: String,
     val summary: String,
+    val imageRes: Int
 
     )

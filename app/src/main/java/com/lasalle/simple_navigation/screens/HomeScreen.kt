@@ -21,11 +21,11 @@ fun HomeScreen(onPostClick: (Int) -> Unit) {
     Scaffold(
         topBar = {
             Text(
-                text = "Mi vida",
+                text = "Mi blog Personal",
                 style = MaterialTheme.typography.headlineMedium,
-                fontSize = 55.sp,
+                fontSize = 50.sp,
                 fontWeight = FontWeight.Bold,
-                textAlign = TextAlign.End,
+                textAlign = TextAlign.Center,
                 modifier = Modifier.padding(30.dp),
                color = MaterialTheme.colorScheme.primary
             )
@@ -50,7 +50,7 @@ fun PostItem(post: BlogPost, onClick: () -> Unit) {
         elevation = CardDefaults.cardElevation(16.dp)
     ) {
         Column(modifier = Modifier.padding(30.dp)) {
-            Text(text = post.title, style = MaterialTheme.typography.titleLarge,fontSize = 25.sp,  fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+            Text(text = post.title, style = MaterialTheme.typography.titleLarge,fontSize = 25.sp,  fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(8.dp))
             Text(text = post.summary, style = MaterialTheme.typography.bodyMedium,fontSize = 20.sp,textAlign = TextAlign.Justify)
 
